@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GalleryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/about_us_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="@string/aboutus_image"
+                android:src="@drawable/aboutus"
+                android:scaleType="centerCrop"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#80000000"/>
+
+            <TextView
+                android:id="@+id/gallery_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:padding="8dp"
+                android:text="@string/gallery"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <!-- Centered Image Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/image1"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/image2"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/image3"
+                android:scaleType="centerCrop"/>
+
+             <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/image4"
+                android:scaleType="centerCrop"/>
+
+             <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/image5"
+                android:scaleType="centerCrop"/>
+
+             <ImageView
+                  android:id="@+id/image6" 
+                  android:layout_width="match_parent" 
+                  android:layout_height="250dp" 
+                  android:layout_marginTop="15dp" 
+                  android:src="@drawable/image6" 
+                  android:scaleType="centerCrop"/>
+
+             <ImageView
+                   android:id="@+id/image7" 
+                   android:layout_width="match_parent" 
+                   android:layout_height="250dp" 
+                   android:layout_marginTop="15dp" 
+                   android:src="@drawable/image7"
+                   android:scaleType="centerCrop"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

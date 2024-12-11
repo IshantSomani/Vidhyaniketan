@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUsFragment"
+    tools:ignore="ScrollViewCount">
+
+    <!-- Main Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header Section -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/about_us_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="@string/aboutus_image"
+                android:scaleType="centerCrop"
+                android:src="@drawable/aboutus" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#80000000" />
+
+            <TextView
+                android:id="@+id/about_us_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:padding="8dp"
+                android:text="@string/contact_us"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <!-- Form Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_background"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/contact_info_title1"
+                style="@style/SectionTitleStyle"
+                android:text="@string/stay_in_touch" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/dividerColor" />
+
+            <EditText
+                android:id="@+id/name_input"
+                style="@style/ContactFormEditText"
+                android:hint="@string/your_name"
+                android:inputType="textPersonName"
+                android:importantForAutofill="no"
+                android:drawableStart="@drawable/ic_name" />
+
+            <EditText
+                android:id="@+id/email_input"
+                style="@style/ContactFormEditText"
+                android:hint="@string/your_email"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress"
+                android:drawableStart="@drawable/ic_email" />
+
+            <EditText
+                android:id="@+id/mobile_number_input"
+                style="@style/ContactFormEditText"
+                android:hint="@string/your_mobileNumber"
+                android:inputType="phone"
+                android:importantForAutofill="no"
+                android:drawableStart="@drawable/ic_phone" />
+
+            <EditText
+                android:id="@+id/message_input"
+                style="@style/ContactFormEditText"
+                android:hint="@string/your_message"
+                android:inputType="textMultiLine"
+                android:minLines="3"
+                android:maxLines="5"
+                android:gravity="top"
+                android:importantForAutofill="no"
+                android:drawableStart="@drawable/ic_message" />
+
+            <Button
+                android:id="@+id/submit_button"
+                style="@style/ContactFormButton"
+                android:text="@string/submit" />
+        </LinearLayout>
+
+        <!-- Contact Information Section -->
+        <LinearLayout
+            android:id="@+id/contact_info_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_background"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/contact_info_title"
+                style="@style/SectionTitleStyle"
+                android:text="@string/contact_information" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/dividerColor" />
+
+            <!-- Contact Items -->
+            <LinearLayout
+                style="@style/ContactInfoItem"
+                android:layout_marginBottom="8dp">
+
+                <ImageView
+                    android:id="@+id/icon_phone"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/ic_phone" />
+
+                <TextView
+                    android:id="@+id/contact_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:text="@string/contact_phone_number"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ContactInfoItem"
+                android:layout_marginBottom="8dp">
+
+                <ImageView
+                    android:id="@+id/icon_email"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/ic_email" />
+
+                <TextView
+                    android:id="@+id/contact_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:text="@string/contact_email_address"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ContactInfoItem">
+
+                <ImageView
+                    android:id="@+id/icon_location"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/ic_location" />
+
+                <TextView
+                    android:id="@+id/contact_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:text="@string/contact_location_address"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Social Media Section -->
+        <LinearLayout
+            android:id="@+id/social_media_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/icon_instagram"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/rounded_icon_background"
+                android:contentDescription="@string/instagram"
+                android:padding="12dp"
+                android:src="@drawable/ic_instagram" />
+
+            <ImageView
+                android:id="@+id/icon_youtube"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/rounded_icon_background"
+                android:contentDescription="@string/youtube"
+                android:padding="12dp"
+                android:src="@drawable/ic_youtube" />
+
+            <ImageView
+                android:id="@+id/icon_facebook"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/rounded_icon_background"
+                android:contentDescription="@string/facebook"
+                android:padding="12dp"
+                android:src="@drawable/ic_facebook" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

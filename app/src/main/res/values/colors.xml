@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#F77331</color> <!-- Main theme color -->
+    <color name="colorSecondary">#FFA500</color> <!-- Main theme color -->
+    <color name="colorPrimaryDark">#B80824</color> <!-- Darker shade for status bar -->
+    <color name="colorAccent">#FF4081</color> <!-- Accent color for highlights -->
+    <color name="cardBackgroundColor">#EF8A54</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+
+    <!-- Light Colors -->
+    <color name="lightPrimary">#FEF8F4</color> <!-- Light background color -->
+
+    <!-- Grey Colors -->
+    <color name="grey">#FF888888</color> <!-- Grey color for text or backgrounds -->
+    <color name="darkGrey">#FF444444</color> <!-- Dark grey for secondary text -->
+
+    <!-- Divider Color -->
+    <color name="dividerColor">#FFE0E0E0</color> <!-- Divider lines color -->
+
+    <!-- Status Bar Color -->
+    <color name="statusBarColor">#FF000000</color> <!-- Black status bar -->
+
+    <!-- Error Colors -->
+    <color name="errorColor">#F44336</color> <!-- Red color for error messages -->
+
+    <!-- Success Colors -->
+    <color name="successColor">#4CAF50</color> <!-- Green color for success messages -->
+
+    <!-- Warning Colors -->
+    <color name="warningColor">#FFEB3B</color> <!-- Yellow color for warnings -->
+
+    <!-- Additional Colors (if needed) -->
+    <color name="transparent">#00000000</color> <!-- Fully transparent color -->
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/main">
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"/>
+
+    <item
+        android:id="@+id/academics"
+        android:title="@string/academics"/>
+
+    <item
+        android:id="@+id/admission"
+        android:title="@string/admission"/>
+
+    <item
+        android:id="@+id/campus_life"
+        android:title="@string/campus_life"/>
+
+    <item
+        android:id="@+id/media"
+        android:title="@string/media"/>
+
+    <item
+        android:id="@+id/news_and_events"
+        android:title="@string/news_and_events"/>
+
+    <item
+        android:id="@+id/contact_us"
+        android:title="@string/contact_us"/>
+    </group>
+
+    <group android:id="@+id/group_main">
+    <item
+        android:id="@+id/contact_list"
+        android:title="@string/contact_list"/>
+</group>
+</menu>

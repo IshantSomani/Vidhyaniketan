@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcademicsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/about_us_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="@string/aboutus_image"
+                android:src="@drawable/aboutus"
+                android:scaleType="centerCrop"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#80000000"/>
+
+            <TextView
+                android:id="@+id/academics_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:padding="8dp"
+                android:text="@string/academics"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardBackgroundColor="@color/cardBackgroundColor"
+            android:layout_marginTop="16dp"
+            android:minHeight="150dp"
+            android:clickable="true"
+            android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+
+        <TextView
+            android:id="@+id/card_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kindergarten"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/card2"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="12dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    app:cardBackgroundColor="@color/cardBackgroundColor"
+    android:layout_marginTop="16dp"
+    android:minHeight="150dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+            <TextView
+                android:id="@+id/card_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/primary_secondary"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/card3"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="12dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    app:cardBackgroundColor="@color/cardBackgroundColor"
+    android:layout_marginTop="16dp"
+    android:minHeight="150dp"
+    android:clickable="true"
+    android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/card_title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/senior_secondary"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>
+</ScrollView>

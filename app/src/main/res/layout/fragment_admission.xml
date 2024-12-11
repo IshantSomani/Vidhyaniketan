@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdmissionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/about_us_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="@string/aboutus_image"
+                android:src="@drawable/aboutus"
+                android:scaleType="centerCrop"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#80000000"/>
+
+            <TextView
+                android:id="@+id/admission_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:padding="8dp"
+                android:text="@string/admission"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/admission_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/admission_heading"
+            android:textColor="@color/colorSecondary"
+            android:textSize="35sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+        
+        <TextView
+            android:id="@+id/admission_paragraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/admission_paragraph"
+            android:justificationMode="inter_word"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/admission_heading1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/admission_heading1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/colorSecondary"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/admission_paragraph1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:justificationMode="inter_word"
+            android:text="@string/admission_paragraph1"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <include layout="@layout/admission_content_main" />
+
+    </LinearLayout>
+</ScrollView>

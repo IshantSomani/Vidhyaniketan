@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/dance_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:layout_gravity="center">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/dance"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/dance_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dance"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <FrameLayout
+        android:id="@+id/literary_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:background="@android:color/transparent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/literary"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/literary_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/literary"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/classical_music_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:background="@android:color/transparent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/music"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/classical_music_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/classical_music"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/robotics_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:background="@android:color/transparent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/robotics"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/robotics_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/robotics"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/basket_ball_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:background="@android:color/transparent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/basket_ball"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/basket_ball_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/basket_ball"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/karate_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:background="@android:color/transparent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/karate"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/karate_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/karate"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/sports_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:background="@android:color/transparent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView7"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/sports"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/sports_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/sports"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/carom_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:background="@android:color/transparent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView8"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/carrom"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/carom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/carom"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/chess_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:background="@android:color/transparent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView9"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/chess"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/chess_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/chess"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/quiz_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:background="@android:color/transparent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView10"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/quiz"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/quiz_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/quiz"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/tamil_literary_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:background="@android:color/transparent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView11"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/tamil_lit"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tamil_literary_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tamil_literary"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/instrumental_music_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:background="@android:color/transparent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView12"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/insmus"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/instrumental_music_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/instrumental_music"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</LinearLayout>

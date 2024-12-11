@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Vidhyaniketan</string>
+    <string name="nav_header_image_desc">Vidhya Niketan Public School</string>
+
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+
+    <!-- Menu Items -->
+    <string name="home">Home</string>
+    <string name="about">About Us</string>
+    <string name="academics">Academics</string>
+    <string name="kindergarten">Kindergarten</string>
+    <string name="primary_secondary">Primary Secondary</string>
+    <string name="senior_secondary">Senior Secondary</string>
+    <string name="admission">Admission</string>
+    <string name="campus_life">Compus Life</string>
+    <string name="co_curricular_activities">Co-Curricular Activities</string>
+    <string name="media">Media</string>
+    <string name="gallery">Gallery</string>
+    <string name="news_and_events">News and Events</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="contact_list">Contact List</string>
+
+    <!-- Home -->
+    <string name="subtitle">Join our diverse community and embrace a world of possibilities.</string>
+    <string name="name">Mrs. Rajini Krishnamurthy</string>
+    <string name="profession">Renowned educationalist, Correspondent, Vidhya Niketan Schools, Coimbatore</string>
+    <string name="home_header">Welcome to Vidhya Niketan</string>
+    <string name="home_paragraph_1">Vidhya Niketan Public School (VNPS) is a well - established, CBSE affiliated, co-education institution, with an incomparable experience of imparting quality education, for over three decades. It stretches over a magnificent expanse of 2 acre campus, in the prime location of the city. Its imposing structure is built to have spacious and well-ventilated classrooms with Interactive smart boards, Indoor Sports Hall, Dining Area, Children’s Play area, Synthetic football and basketball courts, Audio- visual Hall, Activity Rooms, Lego Room, Robotics Room, Performing Arts Room, Exploration Room, ICT, Libraries, but to name a few. It also has separate laboratories for subjects like Sciences, Mathematics and Languages</string>
+    <string name="home_paragraph_2">VNPS provides excellent global standards of education starting from play school to Senior Secondary school, in a safe, supportive and friendly environment that encourages and nurtures students to grow into globally sensitive individuals, laced with Indian values, equipped with knowledge and skills to help them become citizens of the world. This global dimension is reflected in the attitudes and values of our students as well as the ethos of our school. In a nutshell, VNPS under the banner of Vidhya Niketan Schools, is a resourceful centre of life skills, human values,pedagogical, and infrastructural excellence.</string>
+    <string name="paragraph">It is our greatest privilege and pride to publish that Vidhya Niketan Public School (VNPS) is Ranked 24 th in the 12 th Board Exam, in the country amongst 20,519 CBSE schools both in India and abroad.</string>
+    <string name="paragraph1">It is the commitment to build a school that is not only modern in its infrastructure but also in its curriculum design and classroom transactions. Each child’s journey at Vidhya Niketan is meaningful, exciting and full of relevant learning</string>
+
+    <!--    About US    -->
+    <string name="about_us">About Us</string>
+    <string name="aboutus_image">Aboutus image</string>
+    <string name="about_us_heading">Welcome to Vidhya Niketan</string>
+    <string name="about_us_paragraph">Vidhya Niketan Public School (VNPS) operates on the standards of best teaching practices, providing all children with the finest education experience in Coimbatore. It is a highly sought after destination for holistic education. We believe that our children have a natural inclination towards learning and we provide the best way to educate and tune them to achieve meaningful goals in their lives. We provide quality teaching supported by a spirited environment that encourages students to build confidence in their own abilities. Incepted in June 2011, the school was initiated to cater to the growing need of good quality and affordable CBSE curriculum in the city. Conceptualized and managed by the Founder, Correspondent and Secretary Mrs.Rajini Krishnamurthy; who has to her credit, a rich experience of personally managing Vidhya Niketan Matric Higher Secondary School for more than three decades.</string>
+    <string name="mission_statement_heading">Mission Statement.</string>
+    <string name="mission_statement">Our aim is to nurture each child holistically, by creating positive thinkers, by providing a safe and stimulating environment with an individualized, child- centered approach to education, thereby ensuring the best outcomes for all children, in line with the motto, “NO CHILD LEFT BEHIND.”</string>
+    <string name="our_vision">Our school provides a complete and unique educational experience for every child, preparing him / her for a successful life in the contemporary society. The vision envisages, academic excellence through value- based education, and child pedagogy in order to educate the children towards the fast emerging knowledge -based economy, demanding students with higher order thinking skills.</string>
+    <string name="our_vision_heading">Our Vision</string>
+    <string name="card_heading">Special Features of Vidhya Niketan School</string>
+    <string name="card_title">Title</string>
+    <string name="card_subtitle">SubTitle</string>
+
+    <!--    Co-Curricular Activities    -->
+    <string name="campusLife">Co-Curricular Activities</string>
+    <string name="campus_life_heading">Special Features of Vidhya Niketan School</string>
+    <string name="dance">Dance</string>
+    <string name="literary">Literary</string>
+    <string name="classical_music">Classical Music</string>
+    <string name="robotics">Robotics</string>
+    <string name="basket_ball">Basket Ball</string>
+    <string name="karate">Karate</string>
+    <string name="sports">Sports</string>
+    <string name="carom">Carom</string>
+    <string name="chess">Chess</string>
+    <string name="quiz">Quiz</string>
+    <string name="tamil_literary">Tamil Literary</string>
+    <string name="instrumental_music">Instrumental Music</string>
+    <string name="campus_life_heading2">Socially Useful Productive Work (SUPW)</string>
+    <string name="campus_life_heading3">Work Education Classes for IX-XII</string>
+    <string name="hand_embroidery">Hand Embroidery</string>
+    <string name="craft">Craft</string>
+    <string name="cookery">Cookery</string>
+    <string name="theatre">Theatre</string>
+    <string name="drawing_and_painting">Drawing and Painting</string>
+    <string name="multimedia">Multimedia</string>
+    <string name="photography">Photography</string>
+    <string name="terracotta_and_fashion_jewelry">Terracotta and Fashion Jewelry</string>
+    <string name="cycle_repair">Cycle Repair</string>
+    <string name="two_wheeler_repair">Two Wheeler Repair</string>
+    <string name="crochet">Crochet</string>
+
+    <!-- News and Events -->
+    <string name="news_and_events_at_vnps">News and Events at VNPS</string>
+
+    <!-- Admission -->
+    <string name="admission_heading">KNOCK AND THE DOOR WILL OPEN!</string>
+    <string name="admission_paragraph">The doors of Vidhya Niketan Public School (VNPS) will admit you to the threshold of new beginnings with exceptional opportunities and exquisite experiences coming your way. VNPS school is a nurturing ground to foster every pupil to liberally and conscientiously live up to its motto, ‘Learn, Grow and Excel’. We are a testimony to cost-effective, quality- oriented, hands-on and value-based education, as envisioned by the Founder, Correspondent and Secretary, Mrs. Rajini Krishnamurthy.</string>
+    <string name="admission_heading1">ADMISSION PROCEDURE</string>
+    <string name="admission_paragraph1">Just as learning is fun and a lifelong memory at VNPS, the admission procedure too is simple and parent friendly. Adopt the following step by step pathway to be a part of our family.</string>
+    <string name="inclusive_community">Inclusive Community</string>
+    <string name="blog_and_video_gallery">Blog and Video Gallery</string>
+    <string name="hall_of_fame">Hall of Fame</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Contact Us Form -->
+    <string name="your_name">Jhone</string>
+    <string name="your_email">jhone@gmail.com</string>
+    <string name="your_mobileNumber">+91 9123291138</string>
+    <string name="your_message">Your Message</string>
+    <string name="submit">Submit</string>
+
+    <!-- New strings for contact info -->
+    <string name="contact_information">Contact Information</string>
+    <string name="contact_phone_number">Phone Number :  0422 - 2223466, 2221131, 0422 - 2221050</string>
+    <string name="contact_email_address">Email : info@vidhyaniketanschool.com</string>
+    <string name="contact_location_address">Location : 21/17-18, Puliakulam Road, P.N. Palayam, Coimbatore - 641 045. Tamil Nadu, India</string>
+
+    <!-- Social Media -->
+    <string name="instagram">Instagram</string>
+    <string name="youtube">YouTube</string>
+    <string name="facebook">Facebook</string>
+    <string name="stay_in_touch">Stay in touch</string>
+
+</resources>
